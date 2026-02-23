@@ -27,6 +27,20 @@
   color: var(--text-white);
 }
 
+.btn {
+  background-color: #203266;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
 
 /* CSS Reset */
 * {
