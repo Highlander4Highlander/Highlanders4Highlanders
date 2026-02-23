@@ -1,0 +1,75 @@
+/* Add font files for Work Sans */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('fonts/work-sans.woff2') format('woff2'),
+       url('fonts/work-sans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-work-sans: 'Work Sans', sans-serif;
+  --Fuschia/100: rgba(239, 93, 168, 1);
+  --Fuschia/80: rgba(241, 120, 182, 1);
+  --Fuschia/60: rgba(252, 221, 236, 1);
+  --Iris/100: rgba(93, 95, 239, 1);
+  --Iris/80: rgba(120, 121, 241, 1);
+  --Iris/60: rgba(165, 166, 246, 1);
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prototype Links (v5.6.0) */
+a.prototype-link {
+  text-decoration: none;
+  color: inherit;
+  display: contents;
+}
+
+.sign-up-1 {
+@media (max-width: 1440px) {
+  .sign-up-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sign-up-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 0px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 1920px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  min-height: 1080px;
+  width: 100%;
+  height: auto;
+}
